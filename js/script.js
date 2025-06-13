@@ -15,8 +15,8 @@ class Db {
                     { id: 3, categoriaId: 'salao', nome: 'Corte Feminino', preco: 70.00, duracao: 60 },
                 ],
                 funcionarios: [
-                    { id: 1, nome: 'Lucas Moura', especialidades: ['Barbeiro'], foto: 'img/funcionario-1.jpg' },
-                    { id: 2, nome: 'Fernanda Lima', especialidades: ['Cabeleireira'], foto: 'img/funcionario-2.jpg' },
+                    { id: 1, nome: 'Wesley Rissi', especialidades: ['Barbeiro Chefe'], foto: 'img/wesley.jpg' },
+                    { id: 2, nome: 'Fernanda Lima', especialidades: ['Cabeleireira'], foto: 'img/cabeleireira.png' },
                 ],
                 agendamentos: []
             });
