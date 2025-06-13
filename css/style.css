@@ -111,3 +111,80 @@ a:hover {
 #page-content-wrapper {
     width: calc(100% - 250px);
 }
+
+/* --- Responsividade Geral --- */
+@media (max-width: 991.98px) {
+    #wrapper {
+        flex-direction: column;
+    }
+    #sidebar-wrapper {
+        width: 100%;
+        min-height: auto;
+        position: static;
+    }
+    #page-content-wrapper {
+        width: 100%;
+    }
+    .login-card, .card {
+        margin-bottom: 2rem;
+    }
+    .navbar .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .login-card, .card {
+        padding: 1rem;
+    }
+    .main-title, .login-title {
+        font-size: 1.5rem;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .card-select .card-body {
+        padding: 1rem;
+    }
+    .row {
+        flex-direction: column !important;
+    }
+    .col-lg-4, .col-lg-8, .col-md-6, .col-md-4, .col-md-3 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .table-responsive {
+        overflow-x: auto;
+    }
+    .modal-dialog {
+        max-width: 95vw;
+        margin: 1rem auto;
+    }
+    
+}
+
+@media (max-width: 575.98px) {
+    .login-card, .card {
+        padding: 0.5rem;
+    }
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+    .btn, .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    .form-control, .form-select {
+        font-size: 1rem;
+    }
+    .list-group-item {
+        font-size: 0.95rem;
+    }
+    .card-body {
+        padding: 0.75rem;
+    }
+    .modal-content {
+        padding: 0.5rem;
+    }
+}
